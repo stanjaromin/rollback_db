@@ -1,7 +1,7 @@
 from jira import JIRA
 
 jira = JIRA('https://tiswebmaintenance.atlassian.net/')
-auth_jira = JIRA(basic_auth=('maintenance_dmm@globallogic.com', 'qwer-1234'))
+auth_jira = JIRA(basic_auth=('maintenance_dmm@globallogic.com', '#####'))
 
 issue = jira.issue('TED-85')
 print(issue.fields.project.key)           # 'JRA'
