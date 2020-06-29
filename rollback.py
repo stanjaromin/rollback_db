@@ -67,6 +67,7 @@ class Account(object):
     def show_balance(self):
         print("Balance on account {} is {:.2f}".format(self.name, self._balance / 100))
 
+
 if __name__ == '__main__':
     john = Account("John")
     john.deposit(1010)
